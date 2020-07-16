@@ -2,18 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62758442-50f7-4ebc-b132-9aa707048553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/homework/FlightLeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/classic/BigHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/classic/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/classic/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/classic/HouseDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/classic/SmallHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/lesson/house/innerclass/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/CommonwealthFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/ContinentalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/AudiModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/BMWModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/car/SteeringWheelPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/AirUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/BlueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/InfantryUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/MechanizedUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/RedFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/Rifleman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory/units/UnitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/units/Rifleman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/units/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/units/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/lesson/factorymethod/units/UnitType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/lesson/GameEngineEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/lesson/GameEngineEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/singleton/lesson/GameEngineEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/lesson/GameEngineEnum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/factory/lesson/abstractfactory" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,35 +81,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="builder.lesson" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring Projects\DesignPatterns\src\main\java\factory\lesson\abstractfactory" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory.homework.cars" />
+      <recent name="factory.lesson.abstractfactory.units" />
       <recent name="builder.lesson.house.classic" />
       <recent name="singleton.lesson" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="factory.homework.cars" />
+      <recent name="factory.lesson" />
       <recent name="observer.homework.weather" />
       <recent name="observer.order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.homework.Main" />
+      <option name="MAIN_CLASS_NAME" value="factory.homework.cars.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.lesson.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.lesson.*" />
+          <option name="PATTERN" value="factory.homework.cars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.lesson.factorymethod.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.lesson.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594829291283</updated>
-      <workItem from="1594829294560" duration="18048000" />
+      <workItem from="1594829294560" duration="24252000" />
     </task>
     <servers />
   </component>
@@ -177,33 +203,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1594922405552">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1594931232365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594922405552" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594931232365" />
+    <state x="372" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594927623419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1594927623419" />
     <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594916321848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1594916321848" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594922568947">
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594927889347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594922568947" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594922568946">
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1594927889347" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594928700126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594922568946" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594922568946">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594928700126" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1594929189857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594922568946" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594922568946">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594929189857" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594931794527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594922568946" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594829870304">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594931794527" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594931794527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594829870304" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594931794527" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594931794527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594931794527" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594931794527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594931794527" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594931234548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594931234548" />
   </component>
 </project>
