@@ -2,7 +2,7 @@ package factory.homework.cars;
 
 import factory.homework.cars.car.*;
 
-class CommonwealthFactory extends Factory {
+public class CommonwealthFactory extends Factory {
 
     SteeringWheelPosition position = SteeringWheelPosition.RIGHT;
 
