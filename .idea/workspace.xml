@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62758442-50f7-4ebc-b132-9aa707048553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/APIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/BookConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/api/LibraryAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/api/LibraryAPIImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/api/LibraryAPIv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/homework/adapter/api/LibraryAPIv2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/ContinentalDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/ContinentalSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/ContinentalToUKAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/TwoWayAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/UKDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/UKSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/lesson/adapter/UKToContinentalAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/ChickenMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/MealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/PotatoMeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/RiceMeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/SauceMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/homework/meal/ShrimpMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/ForestDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/Hill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/Plain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/RoadDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/SwampDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/Terrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/lesson/terrain/TerrainDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/decorator/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/decorator/lesson/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/homework/cars/CommonwealthFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/CommonwealthFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/homework/cars/ContinentalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/homework/cars/ContinentalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/homework/cars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/homework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/homework/cars/CommonwealthFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/homework/cars/CommonwealthFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/homework/cars/ContinentalFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/homework/cars/ContinentalFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/homework/cars/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flyweight/homework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flyweight/homework/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flyweight/homework/flyweight/ChessPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flyweight/homework/flyweight/ChessPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flyweight/homework/flyweight/ColorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flyweight/homework/flyweight/ColorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adapter/homework/adapter/APIAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adapter/homework/adapter/APIAdapter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,18 +77,18 @@
       <recent name="D:\Spring Projects\DesignPatterns\src\main\java\factory\lesson\abstractfactory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="decorator.homework" />
+      <recent name="decorator.lesson" />
       <recent name="adapter.homework.adapter.api" />
       <recent name="flyweight.homework.flyweight" />
       <recent name="flyweight.lesson.flyweight" />
-      <recent name="factory.homework.cars" />
-      <recent name="factory.lesson.abstractfactory.units" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="decorator.lesson" />
       <recent name="adapter.homework" />
       <recent name="adapter.lesson.adapter" />
       <recent name="factory.homework.cars" />
       <recent name="factory.lesson" />
-      <recent name="observer.homework.weather" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (4)">
@@ -104,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="adapter.lesson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flyweight.lesson.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="flyweight.lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +157,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.lesson.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.lesson.terrain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.homework.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.homework.meal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -208,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594829291283</updated>
-      <workItem from="1594829294560" duration="36070000" />
+      <workItem from="1594829294560" duration="40549000" />
     </task>
     <servers />
   </component>
@@ -216,10 +223,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser" timestamp="1595142279571">
+    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser" timestamp="1595147161324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595142279571" />
+    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595147161324" />
     <state x="372" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594927623419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -232,34 +239,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1594927889347" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595002491664">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595144780060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595002491664" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595144780060" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1594929189857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594929189857" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595142579518">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595147650469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595142579518" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595142579517">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595147650469" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595147650469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595142579517" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595142579517">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595147650469" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595147650469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595142579517" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595142579517">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595147650469" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595147650469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595142579517" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595147650469" />
     <state x="499" y="179" key="extract.method.dialog" timestamp="1595000369199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="179" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1595000369199" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1595144814705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595144814705" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594931234548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
