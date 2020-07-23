@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62758442-50f7-4ebc-b132-9aa707048553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/homework/pricing/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/homework/pricing/discounting_rules/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/homework/pricing/discounting_rules/RegularPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/homework/pricing/discounting_rules/SalePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/lesson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/lesson/chef/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/lesson/chef/egg_cooker/EggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/lesson/chef/egg_cooker/HardBoiledEggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/lesson/chef/egg_cooker/SoftBoiledEggCooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/OneArmBandit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/homework/WinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/state/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/state/CupFullState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/state/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/lesson/state/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +63,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="state.lesson" />
+      <recent name="decorator.lesson" />
+      <recent name="adapter.homework" />
+      <recent name="adapter.lesson.adapter" />
+      <recent name="factory.homework.cars" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="strategy.homework.pricing" />
       <recent name="memento.homework" />
@@ -68,25 +77,18 @@
       <recent name="templatemethod.homework" />
       <recent name="templatemethod.lesson" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Spring Projects\DesignPatterns\src\main\java\factory\lesson\abstractfactory" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="visitor.lesson.activity" />
       <recent name="strategy.lesson.chef.egg_cooker" />
       <recent name="command.homework.musicplayer" />
       <recent name="command.lesson.workshop.command" />
       <recent name="templatemethod.lesson.templatemethod" />
-      <recent name="chainofresponsibility.homework.child" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="decorator.lesson" />
-      <recent name="adapter.homework" />
-      <recent name="adapter.lesson.adapter" />
-      <recent name="factory.homework.cars" />
-      <recent name="factory.lesson" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring Projects\DesignPatterns\src\main\java\factory\lesson\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.lesson.Main" />
       <module name="DesignPatterns" />
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.homework.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor.lesson.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.homework.*" />
+          <option name="PATTERN" value="visitor.lesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,37 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memento.lesson.Main" />
+      <option name="MAIN_CLASS_NAME" value="visitor.homework.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memento.lesson.*" />
+          <option name="PATTERN" value="visitor.homework.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.lesson.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.lesson.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.homework.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.homework.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +251,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594829291283</updated>
-      <workItem from="1594829294560" duration="59813000" />
+      <workItem from="1594829294560" duration="60549000" />
+      <workItem from="1595347524103" duration="9916000" />
     </task>
     <servers />
   </component>
@@ -231,11 +260,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2518" y="135" width="388" height="485" key="#com.intellij.ide.util.MemberChooser" timestamp="1595321885521">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser" timestamp="1595533766103">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2518" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595321885521" />
-    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595164663064" />
+    <state x="574" y="129" width="388" height="485" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595533766103" />
     <state x="372" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594927623419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -245,10 +274,10 @@
     </state>
     <state x="2510" y="285" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595322127942" />
     <state x="566" y="273" width="488" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1595163765050" />
-    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594927889347">
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595444774734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1594927889347" />
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1595444774734" />
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595144780060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,26 +286,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594929189857" />
-    <state width="1557" height="210" key="GridCell.Tab.0.bottom" timestamp="1595322194731">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1595535290863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1557" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595322194731" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595164957112" />
-    <state width="1557" height="210" key="GridCell.Tab.0.center" timestamp="1595322194730">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595535290863" />
+    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1595535290863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1557" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595322194730" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595164957112" />
-    <state width="1557" height="210" key="GridCell.Tab.0.left" timestamp="1595322194730">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595535290863" />
+    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1595535290862">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1557" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595322194730" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595164957112" />
-    <state width="1557" height="210" key="GridCell.Tab.0.right" timestamp="1595322194730">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595535290862" />
+    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1595535290863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1557" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@1920.0.1600.860" timestamp="1595322194730" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595164957112" />
+    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595535290863" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595535151401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595535151401" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595535151400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595535151400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595535151400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595535151400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595535151401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595535151400" />
     <state x="2342" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595245523419">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
